@@ -67,11 +67,6 @@ extension RulerCellView {
 
         }
         .frame(width: cellWidth)
-        .onAppear {
-            print(cellBounds)
-            print(bounds)
-            print(isComplete)
-        }
     }
 
     static func ==(_ lhs: Self, _ rhs: Self) -> Bool {
